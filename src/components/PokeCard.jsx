@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import {Badge, Col, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 
 export const PokeCard = ({pokemon}) => {
 
@@ -33,17 +33,6 @@ export const PokeCard = ({pokemon}) => {
                     </ListGroup.Item>
                   ))
                 }
-                <ListGroup.Item>
-                  <strong>Types:</strong> {
-                  pokemon["types"].map(item => (
-                    <span key={self.crypto.randomUUID()}>
-              <Badge bg="success">
-                {item.type.name}
-              </Badge>&nbsp;&nbsp;
-            </span>
-                  ))
-                }
-                </ListGroup.Item>
               </ListGroup>
             </Card.Body>
           </Card>
