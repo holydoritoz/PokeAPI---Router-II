@@ -5,7 +5,7 @@ import {Container} from "react-bootstrap";
 import {PokemonList} from "./views/PokemonList";
 import {PokemonDetails} from "./views/PokemonDetails";
 import {PokemonProvider} from "./context/PokemonProvider";
-import {Footer} from "./components/Foooter";
+import {Footer} from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
